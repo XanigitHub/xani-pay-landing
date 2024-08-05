@@ -4,6 +4,6 @@
 
 ### Try Our Business Ideaas to grow Rapidly Website
 
-![Banner](.github/Hero.png)
+![Banner](.github/xani-logo.png)
 
 </div># xani-pay-landing
