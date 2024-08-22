@@ -29,11 +29,11 @@ function App() {
         </div>
         {/* END HEADER */}
 
-        {/* START BRANDS */}
+        {/* START BRANDS 
         <div data-aos="fade-down-left" data-aos-duration="4000">
           <Brands />
         </div>
-        {/* END BRANDS */}
+         END BRANDS */}
 
         {/* START SERVICES */}
         <div data-aos="fade-left" data-aos-duration="4000">
@@ -47,7 +47,7 @@ function App() {
         </div>
         {/* END ACHIVE */}
 
-        {/* START BLOG */}
+        {/* START BLOG
         <div
           data-aos="fade-up"
           data-aos-anchor-placement="top-center"
@@ -55,7 +55,7 @@ function App() {
         >
           <Blog />
         </div>
-        {/* END BLOG */}
+        END BLOG */}
 
         {/* START FOOTER */}
         <div data-aos="fade-up" data-aos-duration="3000">

@@ -1,8 +1,9 @@
 .hover-a:hover {
-    @apply text-[#0B041B];
+  @apply text-[#0B041B];
 }
 
 #green-btn:hover {
-    color: #82ffc9;
-    box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.6), 0 0 9px 3px rgba(27, 253, 156, 0.2);
+  color: #faca15;
+  box-shadow: inset 0 0 10px hsl(47, 96%, 53%, 0.6),
+    0 0 9px 3px rgba(27, 253, 156, 0.2);
 }

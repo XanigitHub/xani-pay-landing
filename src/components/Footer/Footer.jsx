@@ -8,23 +8,7 @@ import '../../index.css';
 const FooterP = () => {
   return (
     <div>
-      <footer className="bg-rootOpenBlue">
-        {/* START SUBSCRIBE TOP */}
-        <div>
-          <div className="bg-background p-8 text-center">
-            <h2 className="text-4xl font-bold">Subscribe To Our Newsletter</h2>
-            <p className="text-4xl font-bold mt-2">Get The Best Offers</p>
-            <div className="flex justify-center py-6 items-center mt-4">
-              <p className="text-rootOrange text-lg">With One Click</p>
-              <button className="ml-4 bg-rootOrange text-lg text-font-semibold py-3 text-white px-5 rounded-3xl hover:bg-accent/80 flex items-center">
-                Subscribe
-                <span className="ml-2"> → </span>
-              </button>
-            </div>
-          </div>
-        </div>
-        {/* END SUBSCRIBE TOP */}
-
+      <footer className="bg-yellow-100">
         {/* START FOOTER NAVIGATIONS */}
         <div className="max-w-7xl pb-8 mx-auto flex flex-col md:flex-row justify-between items-center">
           <div className="text-left">
@@ -34,13 +18,10 @@ const FooterP = () => {
           </div>
           <nav className="flex space-x-4 mt-4 md:mt-0">
             <a href="#" className="text-muted-foreground hover:text-orange-400">
-              About
-            </a>
-            <a href="#" className="text-orange-500 hover:text-orange-400">
-              Terms
+              Home
             </a>
             <a href="#" className="text-muted-foreground hover:text-orange-400">
-              Blogs
+              Services
             </a>
             <a href="#" className="text-muted-foreground hover:text-orange-400">
               Contact
@@ -56,13 +37,13 @@ const FooterP = () => {
       </footer>
 
       {/* START FOOTER */}
-      <div className="bg-rootGreen">
+      <div className="bg-yellow-300">
         <div className="container mx-auto my-0">
-          <Footer container className="bg-rootGreen">
+          <Footer container className="bg-yellow-300">
             <Footer.Copyright
               className="text-white"
               href="#"
-              by="All Rights Reserved @jasurhaydarovcode"
+              by="All Rights Reserved @xanipay"
               year={2024}
             />
             <Footer.LinkGroup className="mt-2 sm:mt-0">
