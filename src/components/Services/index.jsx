@@ -1,6 +1,7 @@
 import cardLogo from '../../assets/img/services/Vector.svg';
 import skripkaLogo from '../../assets/img/services/Vector (1).svg';
 import diogramLogo from '../../assets/img/services/Vector (2).svg';
+import { useServices } from '../../hooks/useServices';
 
 const Services = () => {
   return (
@@ -20,10 +21,11 @@ const Services = () => {
             </div>
           </div>
           <h3 className="text-xl font-semibold text-foreground mb-2">
-            Virtual Card
+            Virtual Card & Instant Transfers
           </h3>
           <p className="text-muted-foreground mb-4">
-            Get custom and secure virtual card for seamless banking
+            Get custom and secure virtual card and Transfer money between
+            different accounts effortlessly.
           </p>
         </div>
 
@@ -38,10 +40,10 @@ const Services = () => {
             </div>
           </div>
           <h3 className="text-xl font-semibold text-foreground mb-2">
-            Banks in One
+            Centralized History
           </h3>
           <p className="text-muted-foreground mb-6">
-            Integrate all major banks in one place for seamless transactions
+            View everything in one place, no more digging through multiple apps
           </p>
         </div>
 
@@ -52,10 +54,11 @@ const Services = () => {
             </div>
           </div>
           <h3 className="text-xl font-semibold text-foreground mb-2">
-            Exceptional Insight
+            Expense Tracking & Budget Planning
           </h3>
           <p className="text-muted-foreground mb-4">
-            An exceptional insight on payment history, amount and describtion
+            Track spending habits and stay on top of your budget or Plan for the
+            future with insights tailored to your needs.
           </p>
         </div>
       </div>

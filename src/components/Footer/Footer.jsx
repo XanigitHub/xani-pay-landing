@@ -1,9 +1,9 @@
 //components/footer/footer.jsx
-import { Footer } from 'flowbite-react';
-import { FaXTwitter } from 'react-icons/fa6';
-import { FaFacebook, FaInstagram, FaLinkedin, FaSkype } from 'react-icons/fa';
-import Logo from '../../assets/img/navbar/xani-logo.svg';
-import '../../index.css';
+import { Footer } from "flowbite-react";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebook, FaInstagram, FaLinkedin, FaSkype } from "react-icons/fa";
+import Logo from "../../assets/img/navbar/xani-logo.svg";
+import "../../index.css";
 
 const FooterP = () => {
   return (
@@ -27,7 +27,7 @@ const FooterP = () => {
               Contact
             </a>
           </nav>
-          <div className="text-right mt-4 md:mt-0">
+          <div className="text-right mt-4 md:mt-0" id="contacts">
             <p className="text-muted-foreground">+998 1276 234</p>
             <p className="text-muted-foreground">82/93 Boeind Street. NY</p>
             <p className="text-muted-foreground">info@mail.com</p>

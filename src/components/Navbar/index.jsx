@@ -1,11 +1,11 @@
-import { Navbar } from 'flowbite-react';
-import Logo from '../../assets/img/navbar/xani-logo.svg';
-import './styles.css';
+import { Navbar } from "flowbite-react";
+import Logo from "../../assets/img/navbar/xani-logo.svg";
+import "./styles.css";
 
 const Nav = () => {
   return (
     // START NAVBAR
-    <div className="container mx-auto my-0 fixed top-0 left-0 right-0 z-50 bg-white">
+    <div className=" mx-auto my-0 fixed top-0 left-0 right-0 z-50 bg-white">
       <Navbar fluid>
         {/* START WEBSITE LOGO */}
         <Navbar.Brand href="#">
@@ -23,13 +23,13 @@ const Nav = () => {
         {/* <ul> */}
         <Navbar.Collapse>
           <div className="md:flex gap-12">
-            <Navbar.Link className="text-lg" href="#">
+            <Navbar.Link className="text-lg" href="#home">
               Home
             </Navbar.Link>
-            <Navbar.Link href="#" className="hover-a text-lg">
+            <Navbar.Link href="#services" className="hover-a text-lg">
               Serviecs
             </Navbar.Link>
-            <Navbar.Link href="#" className="hover-a text-lg">
+            <Navbar.Link href="#contacts" className="hover-a text-lg">
               Contact
             </Navbar.Link>
 
