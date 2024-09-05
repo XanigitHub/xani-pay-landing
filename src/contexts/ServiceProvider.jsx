@@ -1,5 +1,5 @@
-import { createContext, useState } from 'react';
-import services from '../data/services.json';
+import { createContext, useState } from "react";
+import services from "../data/services.json";
 
 export const ServiceContext = createContext();
 

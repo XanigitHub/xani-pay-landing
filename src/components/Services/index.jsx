@@ -1,7 +1,6 @@
-import cardLogo from '../../assets/img/services/Vector.svg';
-import skripkaLogo from '../../assets/img/services/Vector (1).svg';
-import diogramLogo from '../../assets/img/services/Vector (2).svg';
-import { useServices } from '../../hooks/useServices';
+import cardLogo from "../../assets/img/services/Vector.svg";
+import skripkaLogo from "../../assets/img/services/Vector (1).svg";
+import diogramLogo from "../../assets/img/services/Vector (2).svg";
 
 const Services = () => {
   return (
