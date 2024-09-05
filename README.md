@@ -1,9 +1,11 @@
-# REACT + VITE
-
+# xanipay
 <div align="center">
 
-### Try Our Business Ideaas to grow Rapidly Website
+## Effortless Banking, All-in-One
+
+# Tired of juggling bank accounts and managing your finances? xanipay connects all your banks for seamless transactions so you can spend with ease.
 
 ![Banner](.github/xani-logo.png)
 
-</div># xani-pay-landing
+# xanipay
+</div>

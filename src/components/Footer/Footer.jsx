@@ -28,9 +28,9 @@ const FooterP = () => {
             </a>
           </nav>
           <div className="text-right mt-4 md:mt-0" id="contacts">
-            <p className="text-muted-foreground">+998 1276 234</p>
-            <p className="text-muted-foreground">82/93 Boeind Street. NY</p>
-            <p className="text-muted-foreground">info@mail.com</p>
+            <p className="text-muted-foreground">+234 906 8950470</p>
+            <p className="text-muted-foreground">xanidigital@gmail.com</p>
+            <p className="text-muted-foreground">info@xanidigital.com</p>
           </div>
         </div>
         {/* END FOOTER NAVIGATIONS */}

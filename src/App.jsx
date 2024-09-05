@@ -1,14 +1,12 @@
-import { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import Brands from './components/Brands';
-import Header from './components/Header';
-import Nav from './components/Navbar';
-import Services from './components/Services';
-import WithLoading from './components/Loading/WithLoading';
-import Blog from './components/Blog';
-import FooterP from './components/Footer/Footer';
-import Service from './components/Services/Service';
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Header from "./components/Header";
+import Nav from "./components/Navbar";
+import Services from "./components/Services";
+import WithLoading from "./components/Loading/WithLoading";
+import FooterP from "./components/Footer/Footer";
+import Service from "./components/Services/Service";
 
 function App() {
   useEffect(() => {
@@ -39,16 +37,6 @@ function App() {
         <div data-aos="fade-down-right" data-aos-duration="4000">
           <Service />
         </div>
-
-        {/* START BLOG
-        <div
-          data-aos="fade-up"
-          data-aos-anchor-placement="top-center"
-          data-aos-duration="4000"
-        >
-          <Blog />
-        </div>
-        END BLOG */}
         {/* START FOOTER */}
         <div data-aos="fade-up" data-aos-duration="3000">
           <FooterP />
