@@ -1,4 +1,4 @@
-# ### xanipay
+# xanipay
 <div align="center">
 
 ## Effortless Banking, All-in-One
